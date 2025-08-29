@@ -13,7 +13,8 @@
 ```
 
 ## Set Notification Subscriptions, Bot Token & ChannelID To Annotations Of ArgoCD Applications To Trigger Notification
-**Turtorial:**
+### Turtorial
+
 ![Alt Text](config.png)
 
 | Field | Key | VALUE |
