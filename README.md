@@ -1,6 +1,6 @@
 # Argocd telegram notification with custom specify telegram bot token and channel ID in annotations when sync applications
 
-| Template |
+| Template Manifest |
 | :--- |
 | argocd-notifications-cm.yaml  |
 
@@ -18,9 +18,9 @@
 
 | Field | Key | VALUE |
 | :--- | :--- | :--- |
-| ANNOTATIONS | telegram_bot_token | <TELEGRAM_BOT_TOKEN> |
-| ANNOTATIONS | telegram_channel_id | <TELEGRAM_CHANNEL_ID> |
-| NOTIFICATION SUBSCRIPTIONS | notifications.argoproj.io/telegram_notification.telegram | <BLANK> |
+| *ANNOTATIONS* | *telegram_bot_token* | *<TELEGRAM_BOT_TOKEN>* |
+| *ANNOTATIONS* | *telegram_channel_id* | *<TELEGRAM_CHANNEL_ID>* |
+| *NOTIFICATION SUBSCRIPTIONS* | *notifications.argoproj.io/telegram_notification.telegram* | *<BLANK>* |
 
 ## Result After Set Notification Subscriptions, Bot Token & ChannelID
 ![Alt Text](message.png)
