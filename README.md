@@ -13,14 +13,14 @@
 ```
 
 ## Set Notification Subscriptions, Bot Token & ChannelID To Annotations Of ArgoCD Applications To Trigger Notification
-*Turtorial:*
+**Turtorial:**
 ![Alt Text](config.png)
 
 | Field | Key | VALUE |
 | :--- | :--- | :--- |
-| *ANNOTATIONS* | *telegram_bot_token* | *<TELEGRAM_BOT_TOKEN>* |
-| *ANNOTATIONS* | *telegram_channel_id* | *<TELEGRAM_CHANNEL_ID>* |
-| *NOTIFICATION SUBSCRIPTIONS* | *notifications.argoproj.io/telegram_notification.telegram* | *<BLANK>* |
+| **ANNOTATIONS** | **telegram_bot_token** | **<TELEGRAM_BOT_TOKEN>** |
+| **ANNOTATIONS** | **telegram_channel_id** | **<TELEGRAM_CHANNEL_ID>** |
+| **NOTIFICATION SUBSCRIPTIONS** | **notifications.argoproj.io/telegram_notification.telegram** | **<BLANK>** |
 
 ## Result After Set Notification Subscriptions, Bot Token & ChannelID
 ![Alt Text](message.png)
